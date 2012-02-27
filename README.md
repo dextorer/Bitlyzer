@@ -17,11 +17,11 @@ If you already have an account on Bit.ly, you just need to import this library i
 
 First, call the constructor passing your login and API key provided by Bit.ly:
 
-	`Bitlyzer b = new Bitlyzer("bitly_login","bitly_api_key");`
+	Bitlyzer b = new Bitlyzer("bitly_login","bitly_api_key");
 
 Now call the shorten() method passing the URL you want to shorten (of course) and a callback object, which will be used to return the result:
 
-	`b.shorten("http://www.google.com", new BitlyzerCallback() {
+	b.shorten("http://www.google.com", new BitlyzerCallback() {
 		@Override
 		public void onSuccess(String shortUrl) {}
 			
@@ -35,5 +35,5 @@ And you're done!
 Some useful links
 -----------------
 
-[.MegaDevs official website](http://megadevs.com/)
-[.Bit.ly](http://bit.ly/)
+[MegaDevs official website](http://megadevs.com/)
+[Bit.ly](http://bit.ly/)
